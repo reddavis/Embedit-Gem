@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "embedit_gem.gemspec",
      "lib/embedit_gem.rb",
      "spec/embedit_gem_spec.rb",
      "spec/spec_helper.rb"
