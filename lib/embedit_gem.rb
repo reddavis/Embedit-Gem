@@ -28,7 +28,7 @@ class EmbeditGem
   end
   
   def valid?
-    @data['valid'] == 'true' ? true : false
+    @data['valid']
   end
   
   def format
