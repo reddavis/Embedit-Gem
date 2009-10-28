@@ -3,7 +3,7 @@ require 'httparty'
 
 class EmbeditGem
   include HTTParty
-  base_uri 'http://localhost:3000/embedit'
+  base_uri 'http://embedit.me/embedit'
   headers 'Content-Type' => 'application/json' 
   
   def initialize(url, options={})
