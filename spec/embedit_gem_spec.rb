@@ -27,21 +27,20 @@ describe "EmbeditGem" do
   
   describe "Bad Params" do
     before(:all) do
-      mock_request('valid' => 'false')
+      mock_request('valid' => false)
       @request = EmbeditGem.new('http://www.youtube.com/watch?v=qRuNxHqwazs')
     end
   
-    it "should set valid to true" do
+    it "should set valid to false" do
       @request.valid?.should be_false
     end
   end
-  
   
   private
   
   def mock_request(options={})
     json = {'title' => 'title', 'format' => 'format', 'html' => 'html', 
-            'valid' => 'true', 'fbml' => 'fbml'}.merge(options)
+            'valid' => true, 'fbml' => 'fbml'}.merge!(options)
     EmbeditGem.stub!(:get).and_return(json)
   end
 end

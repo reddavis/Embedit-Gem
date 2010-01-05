@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{embedit_gem}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["reddavis"]
@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "embedit_gem.gemspec",
      "lib/embedit_gem.rb",
      "spec/embedit_gem_spec.rb",
      "spec/spec_helper.rb"

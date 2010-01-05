@@ -6,6 +6,10 @@ This is a wrapper that interacts with http://embedit.me
 
   gem sources -a http://gemcutter.org
   gem install embedit_gem
+  
+== CI Server
+
+http://runcoderun.com/reddavis/Embedit-Gem
 
 == Example
   
